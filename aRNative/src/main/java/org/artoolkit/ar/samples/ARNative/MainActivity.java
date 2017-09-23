@@ -10,6 +10,7 @@ import android.os.CountDownTimer;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -51,7 +52,7 @@ class dataSmi {
 }
 
 
-public class MainActivity extends Activity implements GyroDetector.ISwingDetectListener{
+public class MainActivity extends AppCompatActivity implements GyroDetector.ISwingDetectListener{
     private TextView mTextView;
     private GyroDetector mGyroDetector;
     private float degree = 0f;

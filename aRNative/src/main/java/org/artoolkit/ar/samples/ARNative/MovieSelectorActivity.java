@@ -3,6 +3,7 @@ package org.artoolkit.ar.samples.ARNative;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -11,7 +12,7 @@ import android.widget.Button;
  * Created by erunn on 2017-09-23.
  */
 
-public class MovieSelectorActivity extends Activity{
+public class MovieSelectorActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -19,5 +19,14 @@
         sha1="44b025e216f91da596373dc8e6ade4a694e550b8">
         <dex dex="E:\pnu\graduation\ARToolKit5-bin-5.3.2-Android\AndroidStudioProjects\ARNativeProj\aRNative\build\intermediates\pre-dexed\debug\classes_79340191ce311675760ead857365c9c48f1d6ede.jar" />
     </item>
+    <item
+        is-multidex="false"
+        jar="E:\pnu\graduation\ARNativeProj\ARNativeProj\BT300Ctrl\BT300Ctrl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f7c5f709f149be134c385c3e0fa654604dc7e8b4">
+        <dex dex="E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\build\intermediates\pre-dexed\debug\BT300Ctrl_1c6a4f5e476b3c0462c54ff1460fb378e55e46e9.jar" />
+    </item>
 
 </items>

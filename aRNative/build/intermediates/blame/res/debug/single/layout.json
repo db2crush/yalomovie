@@ -1,15 +1,15 @@
 [
     {
-        "merged": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\erunn\\.android\\build-cache\\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "merged": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\erunn\\.android\\build-cache\\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\erunn\\.android\\build-cache\\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
