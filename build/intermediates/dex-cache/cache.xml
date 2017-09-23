@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\erunn\.android\build-cache\c0086557d2833a0bbd45d9e5879914ccf36a7f47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44b025e216f91da596373dc8e6ade4a694e550b8">
+        <dex dex="E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\build\intermediates\pre-dexed\debug\classes_315371698d672e0ffd559185ca398edf4f28da3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\erunn\.android\build-cache\b10ae70d638ba690d334f0a39c17c8e99ca9e174\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"

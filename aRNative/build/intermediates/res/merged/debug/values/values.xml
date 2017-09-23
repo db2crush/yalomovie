@@ -12,6 +12,12 @@
     <string-array name="pref_entryValues_cameraResolution">
         <item>320x240</item>
     </string-array>
+    <color name="bg">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="lyric">#FFFFFF</color>
+    <color name="textColor">#000000</color>
     <string name="app_name">ARNative</string>
     <string name="hello">Hello World, ARNativeActivity!</string>
     <string name="menuItem_settings">Settings</string>

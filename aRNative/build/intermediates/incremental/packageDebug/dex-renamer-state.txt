@@ -1,4 +1,4 @@
-#Sat Sep 23 14:33:57 KST 2017
-base.0=E\:\\pnu\\graduation\\ARToolKit5-bin-5.3.2-Android\\AndroidStudioProjects\\ARNativeProj\\aRNative\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Sat Sep 23 17:50:50 KST 2017
+base.0=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=E\:\\pnu\\graduation\\ARToolKit5-bin-5.3.2-Android\\AndroidStudioProjects\\ARNativeProj\\aRNative\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

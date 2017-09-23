@@ -234,15 +234,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 207,
-                        "endLine": 6,
-                        "endColumn": 19,
-                        "endOffset": 306
-                    }
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
                 }
             },
             {
@@ -255,15 +247,7 @@
                     "endOffset": 267
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 311,
-                        "endLine": 9,
-                        "endColumn": 19,
-                        "endOffset": 419
-                    }
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
                 }
             },
             {
@@ -276,15 +260,7 @@
                     "endOffset": 365
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 424,
-                        "endLine": 12,
-                        "endColumn": 19,
-                        "endOffset": 517
-                    }
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
                 }
             },
             {
@@ -297,15 +273,7 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 522,
-                        "endLine": 15,
-                        "endColumn": 19,
-                        "endOffset": 626
-                    }
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
                 }
             },
             {
@@ -313,112 +281,77 @@
                     "startLine": 14,
                     "startColumn": 4,
                     "startOffset": 479,
-                    "endColumn": 45,
-                    "endOffset": 520
+                    "endColumn": 36,
+                    "endOffset": 511
                 },
                 "from": {
-                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 120,
-                        "endColumn": 45,
-                        "endOffset": 161
-                    }
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 525,
-                    "endColumn": 64,
-                    "endOffset": 585
+                    "startOffset": 516,
+                    "endColumn": 45,
+                    "endOffset": 557
                 },
                 "from": {
-                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 64,
-                        "endOffset": 115
-                    }
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 590,
-                    "endColumn": 54,
-                    "endOffset": 640
+                    "startOffset": 562,
+                    "endColumn": 46,
+                    "endOffset": 604
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 631,
-                        "endColumn": 54,
-                        "endOffset": 681
-                    }
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 645,
-                    "endColumn": 69,
-                    "endOffset": 710
+                    "startOffset": 609,
+                    "endColumn": 50,
+                    "endOffset": 655
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 686,
-                        "endColumn": 69,
-                        "endOffset": 751
-                    }
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 715,
-                    "endColumn": 70,
-                    "endOffset": 781
+                    "startOffset": 660,
+                    "endColumn": 39,
+                    "endOffset": 695
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 756,
-                        "endColumn": 70,
-                        "endOffset": 822
-                    }
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 786,
-                    "endColumn": 64,
-                    "endOffset": 846
+                    "startOffset": 700,
+                    "endColumn": 43,
+                    "endOffset": 739
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\colors.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 827,
-                        "endColumn": 64,
-                        "endOffset": 887
+                        "startOffset": 283,
+                        "endColumn": 43,
+                        "endOffset": 322
                     }
                 }
             },
@@ -426,19 +359,84 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 851,
-                    "endColumn": 73,
-                    "endOffset": 920
+                    "startOffset": 744,
+                    "endColumn": 45,
+                    "endOffset": 785
                 },
                 "from": {
-                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 892,
-                        "endColumn": 73,
-                        "endOffset": 961
-                    }
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 790,
+                    "endColumn": 64,
+                    "endOffset": 850
+                },
+                "from": {
+                    "file": "E:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 855,
+                    "endColumn": 54,
+                    "endOffset": 905
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 910,
+                    "endColumn": 69,
+                    "endOffset": 975
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 980,
+                    "endColumn": 70,
+                    "endOffset": 1046
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1051,
+                    "endColumn": 64,
+                    "endOffset": 1111
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1116,
+                    "endColumn": 73,
+                    "endOffset": 1185
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\c0086557d2833a0bbd45d9e5879914ccf36a7f47\\output\\res\\values\\values.xml"
                 }
             }
         ]
