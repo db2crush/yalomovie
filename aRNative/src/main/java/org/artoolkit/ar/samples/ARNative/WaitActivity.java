@@ -1,7 +1,10 @@
 package org.artoolkit.ar.samples.ARNative;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.net.DhcpInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
@@ -11,6 +14,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.net.URISyntaxException;
 import com.github.nkzawa.emitter.Emitter;
@@ -26,6 +30,8 @@ import org.json.JSONObject;
  */
 
 public class WaitActivity extends AppCompatActivity {
+    private final String BROADCAST_MESSAGE = "org.artoolkit.ar.samples.ARNative";
+    private BroadcastReceiver mReceiver = null;
     private Socket mSocket; //소켓 연결
     {
         try {
@@ -70,9 +76,8 @@ public class WaitActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case  R.id.button7 :
-                    Intent toTime = new Intent(WaitActivity.this, MainActivity.class);
+                    Intent toTime = new Intent(WaitActivity.this, ARNativeActivity.class);
                     startActivity(toTime);
-                    finish();
                     break;
 
                 default:
@@ -108,8 +113,11 @@ public class WaitActivity extends AppCompatActivity {
 
     private void showMessage(String username, String message){ //메세지 표시 : 이부분을 가지고 장난치면됨
         mTextView.setText("IP: "+ username + "\n msg : " + message);
-        if(message.equals("start"))
+        Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
+        if(message.equals("start")){
+//            Intent intent = new Intent(BROADCAST_MESSAGE);
             mTextView.setText("start");
+        }
     }
 
     @Override
@@ -118,5 +126,50 @@ public class WaitActivity extends AppCompatActivity {
 
         mSocket.disconnect();
         mSocket.off("new message", onNewMessage);
+        unregisterReceiver();
+    }
+
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        registerReceiver();
+    }
+
+    private void registerReceiver() {
+        /** 1. intent filter를 만든다
+         *  2. intent filter에 action을 추가한다.
+         *  3. BroadCastReceiver를 익명클래스로 구현한다.
+         *  4. intent filter와 BroadCastReceiver를 등록한다.
+         * */
+        if(mReceiver != null) return;
+
+        final IntentFilter theFilter = new IntentFilter();
+        theFilter.addAction(BROADCAST_MESSAGE);
+
+        this.mReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                int receviedData = intent.getIntExtra("value",0);
+                if(intent.getAction().equals(BROADCAST_MESSAGE)){
+                    Toast.makeText(context, "recevied Data : "+receviedData, Toast.LENGTH_SHORT).show();
+                }
+            }
+        };
+
+        this.registerReceiver(this.mReceiver, theFilter);
+    }
+
+    private void unregisterReceiver() {
+        if(mReceiver != null){
+            this.unregisterReceiver(mReceiver);
+            mReceiver = null;
+        }
     }
 }

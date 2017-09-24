@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Sep 23 18:26:24 KST 2017
+#Sun Sep 24 16:25:17 KST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\select_dialog_singlechoice_material.xml
@@ -36,7 +36,7 @@
 186.set=ANDROID_RESOURCE
 115.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png
 49.set=ANDROID_RESOURCE
-92.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png
+92.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_switch_thumb_material.xml
 167.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_part_time.xml
 198.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 121.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
@@ -49,7 +49,7 @@
 193.set=ANDROID_RESOURCE
 56.set=ANDROID_RESOURCE
 19.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
-15.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_view.xml
+15.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png
 46.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 213.set=ANDROID_RESOURCE
 98.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
@@ -100,7 +100,7 @@
 41.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png
 196.set=ANDROID_RESOURCE
 116.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_ic_ab_back_material.xml
-93.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_switch_thumb_material.xml
+93.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png
 147.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 59.set=ANDROID_RESOURCE
 168.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\abc_btn_colored_material.xml
@@ -249,7 +249,7 @@
 47.set=ASSET
 76.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 51.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
-207.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
+207.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_popup_menu_header_item_layout.xml
 93.set=ANDROID_RESOURCE
 204.set=ANDROID_RESOURCE
 9.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
@@ -310,7 +310,7 @@
 57.set=ANDROID_RESOURCE
 77.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 52.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
-208.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\abc_popup_menu_header_item_layout.xml
+208.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png
 214.set=ANDROID_RESOURCE
 106.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_screen_simple.xml
 18.set=ANDROID_RESOURCE
@@ -321,7 +321,7 @@
 64.set=ANDROID_RESOURCE
 185.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_list_selector_holo_dark.xml
 6.set=ANDROID_RESOURCE
-160.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png
+160.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_media.xml
 168.set=ANDROID_RESOURCE
 221.set=ANDROID_RESOURCE
 25.set=ANDROID_RESOURCE
@@ -383,7 +383,7 @@
 134.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\activity_movieselector.xml
 74.set=ANDROID_RESOURCE
 186.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png
-161.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_media.xml
+161.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png
 192.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\assets\\debug
 231.set=ANDROID_RESOURCE
 172.set=ANDROID_RESOURCE
@@ -403,7 +403,7 @@
 167.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 146.set=ANDROID_RESOURCE
 142.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
-198.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png
+198.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_text_cursor_material.xml
 121.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_edittext.xml
 0.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 173.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_action_mode_bar.xml
@@ -467,7 +467,7 @@ count=240
 147.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_edittext.xml
 220.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
-199.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_text_cursor_material.xml
+199.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png
 122.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png
 13.set=ANDROID_RESOURCE
 1.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
@@ -702,7 +702,7 @@ count=240
 46.set=ANDROID_RESOURCE
 18.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 39.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_btn_colored_borderless_text_material.xml
-14.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png
+14.file=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_search_view.xml
 45.base=E\:\\pnu\\graduation\\ARNativeProj\\ARNativeProj\\aRNative\\build\\intermediates\\res\\resources-debug.ap_
 92.set=ANDROID_RESOURCE
 203.set=ANDROID_RESOURCE

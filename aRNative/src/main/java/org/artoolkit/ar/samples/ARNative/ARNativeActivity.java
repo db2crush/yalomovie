@@ -77,6 +77,7 @@ public class ARNativeActivity extends Activity {
 
     private static final String TAG = "ARNativeActivity";
 
+
     // Load the native libraries.
     static {
     	System.loadLibrary("ARNative");
