@@ -17,7 +17,7 @@ public final class R {
         public static final int settings = 0x7f02005f;
     }
     public static final class id {
-        public static final int settings = 0x7f0c0083;
+        public static final int settings = 0x7f0c0082;
     }
     public static final class menu {
         public static final int options = 0x7f0e0000;

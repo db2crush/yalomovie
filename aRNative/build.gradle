@@ -71,4 +71,5 @@ dependencies {
     //    compile 'com.android.support:appcompat-v7:23.0.1' //Only required when the target device API level is greater than
     compile project(':aRBaseLib')
     compile project(':BT300Ctrl')
+    compile 'com.github.nkzawa:socket.io-client:0.3.0'
 }                                                       //the compile and target of the app being deployed to the device
