@@ -114,7 +114,7 @@ public class WaitActivity extends AppCompatActivity {
         public void onClick(View v) {
             switch (v.getId()){
                 case  R.id.button7 :
-                    Intent toTime = new Intent(WaitActivity.this, ARNativeActivity.class);
+                    Intent toTime = new Intent(WaitActivity.this, AugmentActivity.class);
                     startActivity(toTime);
                     break;
 

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\pnu\\graduation\\artoolkit-android-studio-example-master\\artoolkit-android-studio-example-master\\base\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\72cc2cca82845759368479565673d9d99a2aba5f\\output\\res\\values-ldrtl-v23\\values-ldrtl-v23.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 112,
+                        "endOffset": 348
+                    }
+                }
+            }
+        ]
+    }
+]

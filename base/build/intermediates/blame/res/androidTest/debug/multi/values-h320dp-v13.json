@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\pnu\\graduation\\artoolkit-android-studio-example-master\\artoolkit-android-studio-example-master\\base\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h320dp-v13\\values-h320dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\erunn\\.android\\build-cache\\72cc2cca82845759368479565673d9d99a2aba5f\\output\\res\\values-h320dp\\values-h320dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 231,
+                        "endColumn": 57,
+                        "endOffset": 284
+                    }
+                }
+            }
+        ]
+    }
+]

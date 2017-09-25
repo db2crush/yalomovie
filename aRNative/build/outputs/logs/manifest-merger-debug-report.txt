@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:2:1-62:12
 	package
 		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml
@@ -39,42 +39,46 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:12:5-76
 	android:name
 		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.VIBRATE
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:13:22-63
 uses-feature#android.hardware.camera.any
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:15:5-64
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:20:5-64
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:15:19-61
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:20:19-61
 uses-feature#android.hardware.camera
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:16:5-18:36
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:21:5-23:36
 	android:required
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:18:9-33
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:23:9-33
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:17:9-47
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:22:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:19:5-21:36
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:21:9-33
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:20:9-57
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:25:9-57
 uses-feature#0x00020000
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:22:5-24:35
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:27:5-29:35
 	android:glEsVersion
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:23:9-41
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:28:9-41
 	android:required
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:24:9-32
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:29:9-32
 supports-screens
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:26:5-31:40
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:31:5-36:40
 	android:largeScreens
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:28:9-36
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:33:9-36
 	android:smallScreens
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:30:9-36
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:35:9-36
 	android:normalScreens
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:29:9-37
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:34:9-37
 	android:xlargeScreens
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:31:9-37
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:36:9-37
 	android:anyDensity
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:27:9-34
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:32:9-34
 application
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:33:5-54:19
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:38:5-60:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\erunn\.android\build-cache\b6de7b5773cf2e8adc8b4381508c120b1f62fa9f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\erunn\.android\build-cache\1d671e965f3e02d28e6f8b14440c4df307cee5b8\output\AndroidManifest.xml:29:5-20
@@ -86,51 +90,55 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\erunn\
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\erunn\.android\build-cache\3574ba31d03fef2ec74cee45377826b03ffc7644\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\erunn\.android\build-cache\dd928b2aa9cf085137846fc2ee6f869145bfe599\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:38:9-41
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:43:9-41
 	android:configChanges
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:36:9-70
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:41:9-70
 	android:allowBackup
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:35:9-35
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:40:9-35
 	android:icon
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:37:9-38
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:42:9-38
 	android:theme
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:39:9-40
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:44:9-40
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:34:9-77
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:39:9-77
 activity#org.artoolkit.ar.samples.ARNative.MovieSelectorActivity
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:42:9-47:20
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:47:9-52:20
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:42:19-56
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:47:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:43:13-46:29
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:48:13-51:29
 action#android.intent.action.MAIN
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:44:17-69
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:49:17-69
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:44:25-66
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:49:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:45:17-77
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:50:17-77
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:45:27-74
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:50:27-74
 activity#org.artoolkit.ar.samples.ARNative.ARNativeActivity
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:48:9-96
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:53:9-96
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:48:19-84
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:53:19-84
 activity#org.artoolkit.ar.base.camera.CameraPreferencesActivity
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:49:9-100
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:54:9-100
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:49:19-88
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:54:19-88
 activity#org.artoolkit.ar.samples.ARNative.MainActivity
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:50:9-59
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:55:9-59
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:50:19-47
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:55:19-47
 activity#org.artoolkit.ar.samples.ARNative.TimeSelectorActivity
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:51:9-67
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:56:9-67
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:51:19-55
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:56:19-55
 activity#org.artoolkit.ar.samples.ARNative.WaitActivity
-ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:52:9-59
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:57:9-59
 	android:name
-		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:52:19-47
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:57:19-47
+activity#org.artoolkit.ar.samples.ARNative.AugmentActivity
+ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:58:9-62
+	android:name
+		ADDED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml:58:19-50
 uses-sdk
 INJECTED from E:\pnu\graduation\ARNativeProj\ARNativeProj\aRNative\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:21:5-23:78
