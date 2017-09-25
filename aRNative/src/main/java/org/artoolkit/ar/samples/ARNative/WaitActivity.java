@@ -17,6 +17,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.net.URISyntaxException;
+import java.sql.Timestamp;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.logging.Handler;
+
 import com.github.nkzawa.emitter.Emitter;
 import com.github.nkzawa.socketio.client.IO;
 import com.github.nkzawa.socketio.client.Socket;
@@ -30,6 +38,10 @@ import org.json.JSONObject;
  */
 
 public class WaitActivity extends AppCompatActivity {
+    private TimerTask mTask;
+    private Timer mTimer;
+    String left = "00:05:00";
+
     private final String BROADCAST_MESSAGE = "org.artoolkit.ar.samples.ARNative";
     private BroadcastReceiver mReceiver = null;
     private Socket mSocket; //소켓 연결
@@ -41,6 +53,8 @@ public class WaitActivity extends AppCompatActivity {
         }
     }
     private TextView mTextView; // 메세지 수신확인 텍스트 뷰
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +66,7 @@ public class WaitActivity extends AppCompatActivity {
 //
         yaloButton.setOnClickListener(listener);
 
-        mTextView = (TextView)findViewById(R.id.leftTime);
+
 
 
         WifiManager wm = (WifiManager) getSystemService(WIFI_SERVICE); // 내 ip 주소 받아오는부분
@@ -69,6 +83,30 @@ public class WaitActivity extends AppCompatActivity {
         mSocket.emit("join",ipAddress); // 소켓 서버에 조인 메세지 보내기
         mSocket.on("msg", onNewMessage); // 소켓 서버에서 메세지 수신
         mSocket.connect(); // 소켓 연결
+
+        mTask = new TimerTask() {
+            @Override
+            public void run() {
+                mTextView = (TextView)findViewById(R.id.leftTime);
+                long temp = DateToMill(left) - 1000;
+                if(temp == 0){
+                    Intent toMain = new Intent(WaitActivity.this, MainActivity.class);
+                    startActivity(toMain);
+                    finish();
+                }
+                left = MillToDate(temp);
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        mTextView.setText(left);
+                    }
+                });
+
+            }
+        };
+
+        mTimer = new Timer();
+        mTimer.schedule(mTask, 1000, 1000);
 
     }
 
@@ -113,10 +151,14 @@ public class WaitActivity extends AppCompatActivity {
 
     private void showMessage(String username, String message){ //메세지 표시 : 이부분을 가지고 장난치면됨
         mTextView.setText("IP: "+ username + "\n msg : " + message);
-        Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT).show();
         if(message.equals("start")){
 //            Intent intent = new Intent(BROADCAST_MESSAGE);
+            Toast.makeText(getApplicationContext(),"영화가 곧 시작합니다..",Toast.LENGTH_SHORT).show();
             mTextView.setText("start");
+
+            Intent toMain = new Intent(WaitActivity.this, MainActivity.class);
+            startActivity(toMain);
+            finish();
         }
     }
 
@@ -126,6 +168,7 @@ public class WaitActivity extends AppCompatActivity {
 
         mSocket.disconnect();
         mSocket.off("new message", onNewMessage);
+        mTimer.cancel();
         unregisterReceiver();
     }
 
@@ -171,5 +214,30 @@ public class WaitActivity extends AppCompatActivity {
             this.unregisterReceiver(mReceiver);
             mReceiver = null;
         }
+    }
+
+    private String MillToDate(long mills){
+        String pattern = "HH:mm:ss";
+        SimpleDateFormat formatter = new SimpleDateFormat(pattern);
+        String date = (String) formatter.format(new Timestamp(mills));
+
+        return date;
+    }
+
+    private long DateToMill(String date){
+        String pattern = "HH:mm:ss";
+        SimpleDateFormat formatter = new SimpleDateFormat(pattern);
+
+        Date trans_date = null;
+        try {
+            trans_date = formatter.parse(date);
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return trans_date.getTime();
+
+
     }
 }
