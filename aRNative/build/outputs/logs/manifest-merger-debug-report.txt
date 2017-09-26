@@ -152,6 +152,7 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\erunn\
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\erunn\.android\build-cache\3574ba31d03fef2ec74cee45377826b03ffc7644\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\erunn\.android\build-cache\dd928b2aa9cf085137846fc2ee6f869145bfe599\output\AndroidManifest.xml:5:5-7:41
 MERGED from [ARNativeProj:aRBaseLib:unspecified] C:\Users\erunn\.android\build-cache\c0086557d2833a0bbd45d9e5879914ccf36a7f47\output\AndroidManifest.xml:7:5-9:41
+MERGED from [ARNativeProj:ArJpctBaseLib-release:unspecified] C:\Users\erunn\.android\build-cache\11332ba22244531db378e31c24e52b1be18d1f8d\output\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

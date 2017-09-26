@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ArJpctBaseLib-release-unspecified">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/11332ba22244531db378e31c24e52b1be18d1f8d/output/jars/libs/jpct_ae.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/11332ba22244531db378e31c24e52b1be18d1f8d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/11332ba22244531db378e31c24e52b1be18d1f8d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

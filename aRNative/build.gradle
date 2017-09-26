@@ -72,4 +72,5 @@ dependencies {
     compile project(':aRBaseLib')
     compile project(':BT300Ctrl')
     compile 'com.github.nkzawa:socket.io-client:0.3.0'
+    compile project(':ArJpctBaseLib-release')
 }                                                       //the compile and target of the app being deployed to the device
